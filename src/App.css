@@ -1,0 +1,56 @@
+main{
+  display: flex;
+  height: 100vh;
+}
+.aura{
+  flex: 0.5;
+  background-image: url("./assets/Doom_Slayer.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginSection{
+  flex: 0.5;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+h4{
+ font-size: 3rem; 
+ color: rgb(102, 18, 7);
+ text-shadow: 0 0 5px rgb(194, 181, 179);
+}
+label{
+  font-size: 1.2rem;
+  margin-top: 8px;
+  font-weight: bold;
+}
+input{
+  outline: none;
+  width: 300px;
+  height: 32px;
+  text-indent: 10px;
+  border-radius: 18px;
+  border: 2px solid rgb(221, 161, 83);
+  background-color: rgba(0, 0, 0, 0.527);
+  color: #fff;
+}
+button{
+  margin-top: 12px;
+  background-color: brown;
+  border-radius: 18px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
